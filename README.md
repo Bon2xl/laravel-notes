@@ -3,7 +3,10 @@
 ## Routes
 
 ### Routers 1.0
-Get  and print URL parameters in routes and display template [/routes/web.php](/routes/web.php)
+Get  and print URL parameters in routes and display template 
+[/routes/web.php](/routes/web.php)
+[resources/views/routes.blade.php](resources/views/routes.blade.php)
+
 
 ```php
 use Illuminate\Http\Request;
