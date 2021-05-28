@@ -14,8 +14,14 @@ use Illuminate\Http\Request;
 |
 */
 
-# Routers 1.0
-Route::get('/', function (Request $request) {
-    $name = $request->input('name');
+Route::get('/', function () {
     return view('welcome');
+});
+
+// Routers 1.0.
+Route::get('/routes', function (Request $request) {
+  $name = $request->input('name');
+  return view('routes', [
+    'name' => $name,
+  ]);
 });
